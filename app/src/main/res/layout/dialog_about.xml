@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        style="@style/WCC.TextAppearance.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/nav_separator_padding"
+        android:layout_marginTop="@dimen/nav_separator_padding"
+        android:background="@color/nav_separator" />
+
+    <TextView
+        android:id="@+id/msg_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/support_msg"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_large"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextView
+        android:id="@+id/msg_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_separator_padding"
+        android:text="@string/copyright"
+        android:textSize="@dimen/text_size_large" />
+    <TextView
+        android:id="@+id/msg_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_separator_padding"
+        android:text="@string/website"
+        android:textSize="@dimen/text_size_large" />
+    <TextView
+        android:id="@+id/msg_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_separator_padding"
+        android:text="@string/phone"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>
